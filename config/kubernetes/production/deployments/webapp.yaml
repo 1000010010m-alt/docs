@@ -60,7 +60,7 @@ spec:
           readinessProbe:
             initialDelaySeconds: 5
             httpGet:
-              # WARNING: This should be updated to a meaningful endpoint for your application which will return a 200 once the app is fully started.
+              # WARNING:hhj This should be updated to a meaningful endpoint for your application which will return a 200 once the app is fully started.
               # See: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#define-readiness-probes
               path: /healthcheck
               port: http
